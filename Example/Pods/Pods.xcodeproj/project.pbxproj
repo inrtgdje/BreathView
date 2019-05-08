@@ -30,7 +30,7 @@
 		278EB2F971E83AC2FC50DB00AABA878D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35F92A6BFBF9579DAFE842BFF03D7D /* Nimble.framework */; };
 		2AA0E9DEBC4882EC92A5F8907D70FFB5 /* CurrentTestCaseTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2599860B3B6C633051E91F61C1A2A0 /* CurrentTestCaseTracker.swift */; };
 		2B019AAB9E542304C4482C5A2776152C /* Pods-BreathView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C56BF00B333E7C6801F34A2033BEC /* Pods-BreathView_Tests-dummy.m */; };
-		2B0AC50E2F547C32532E1CFAE9DD662E /* BreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F64400A3871642DD4EEDCFDE50D6B /* BreathView.swift */; };
+		2B0AC50E2F547C32532E1CFAE9DD662E /* BreathView.swift in Headers */ = {isa = PBXBuildFile; fileRef = EE3F64400A3871642DD4EEDCFDE50D6B /* BreathView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D0458D45FE190423C44F1C3A868F3A2 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F45413AED885F800FFEE6DBA6C19A /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D6ED34D68B01A631CFB7904136028AE /* Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCDE254E848B12F46C3ED33DA52667D /* Nimble-Snapshots-dummy.m */; };
 		2E179FC964099E3397EFA6590CA0502D /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8C5B49543ADBDE69325E3D5B8BBE4D /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -885,6 +885,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F26843210ADE9AEA3300E4EDAF61F1B /* BreathView-umbrella.h in Headers */,
+				2B0AC50E2F547C32532E1CFAE9DD662E /* BreathView.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1181,7 +1182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E6CD7FA2F1DA0807FBB57CFF5992ED /* BreathView-dummy.m in Sources */,
-				2B0AC50E2F547C32532E1CFAE9DD662E /* BreathView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
