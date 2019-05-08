@@ -1,0 +1,6 @@
+framework module Pods_BreathView_Tests {
+  umbrella header "Pods-BreathView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
