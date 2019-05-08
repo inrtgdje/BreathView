@@ -2,7 +2,7 @@
   "name": "BreathView",
   "version": "0.1.0",
   "summary": "A breathView like apple watch.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "A breathView like apple watch.",
   "homepage": "https://github.com/inrtgdje/BreathView",
   "license": {
     "type": "MIT",
@@ -19,5 +19,6 @@
     "ios": "9.0"
   },
   "source_files": "BreathView/Classes/**/*",
-  "swift_versions": "4.0"
+  "swift_versions": "4.0",
+  "public_header_files": "Pod/Classes/*.swift"
 }

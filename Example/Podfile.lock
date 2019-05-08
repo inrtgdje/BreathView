@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BreathView: 8a964c5bbd37bc7b3c84fdc1a7d381f92ab3a8ac
+  BreathView: b99a1820aaf461e1cb31ece6a081e265cf91e4c6
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52

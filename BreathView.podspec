@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    A breathView like apple watch.
+    A breathView looks like apple watch.
                        DESC
 
   s.homepage         = 'https://github.com/inrtgdje/BreathView'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'BreathView' => ['BreathView/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/*.swift'
+  # s.public_header_files = 'Pod/Classes/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
