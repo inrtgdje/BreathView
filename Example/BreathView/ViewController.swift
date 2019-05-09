@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import BreathView
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

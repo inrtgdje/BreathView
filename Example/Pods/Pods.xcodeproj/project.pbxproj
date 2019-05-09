@@ -58,6 +58,7 @@
 		50CE485694DA974ABB8F4FE31E569B62 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F834CA938E663BE9B2D6555C06C89C86 /* URL+FileName.swift */; };
 		56A4B63BD3B8063C6F7BD38CA9D6A370 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 52352042A771404EEA5CF4DEA07A71F0 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		574F8040F63D22D019C22AEBB67A9D2E /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 581B455EE957202443A34A242D45CB60 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57AFF6D62283C1D400C9A46F /* BreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFF6D52283C1D400C9A46F /* BreathView.swift */; };
 		5A2A453E94C4D200001F27F2617CA293 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797C9667370FCDF142963C2971705CA /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5AAD3BD65B6129CC8486E0C582D3BF73 /* XCTestObservationCenter+CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFF9166360B2716DF0A68E58FA4785A /* XCTestObservationCenter+CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BECC8DFEC8E82A2294B4EDE9D08E869 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 17736B10D5474525ED04B80F4DB7A120 /* QuickConfiguration.m */; };
@@ -145,7 +146,6 @@
 		DC081635D6E16A2B3C4FA9C6EB148C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B070BF58186B8A442FAF1E2778426060 /* Foundation.framework */; };
 		DC3D7EA08F2A622BE0A2798EBF523D57 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = EC731C7F9B11D617F1A71F67895CB316 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DF9984EA0D9C0F99EC0955DFB3730615 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F5B3A28613B8CA1E0E19B8A4041F48 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		E42078997F938778EFA2A3174A00B442 /* BreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63DD0F5C9C82ABA44461ACA31F9342 /* BreathView.swift */; };
 		E4EB65408B062F4CE158C852F9F48990 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F819C44AA6618DA7B43162D6AE151 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E523CA71BEF02F251337315C104F1355 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5242E73095DAAC933DEFFD44354BCD9 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E696D2B3D229892D834420E8886D70F6 /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC4C7299C41259D64C6CADAD039DCE3 /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -280,6 +280,7 @@
 		52352042A771404EEA5CF4DEA07A71F0 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
 		5550CADE8D0B5252F75AA4379384BA61 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		572E2B6BC86F1492D00AD6769E465605 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		57AFF6D52283C1D400C9A46F /* BreathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreathView.swift; path = BreathView/Classes/BreathView.swift; sourceTree = "<group>"; };
 		581B455EE957202443A34A242D45CB60 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		59C4261F7065EB9A891FE0FDDDA5F924 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		59D905CBF55A2D28A21556AEBC063AE5 /* HaveValidDynamicTypeSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveValidDynamicTypeSnapshot.swift; path = DynamicType/HaveValidDynamicTypeSnapshot.swift; sourceTree = "<group>"; };
@@ -312,7 +313,6 @@
 		793DEF7083289968A5D60A430FD3AF43 /* Pods_BreathView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreathView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A69DCDF1ED721159A1826A9D4CEA926 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		7AC3B1A3A5A2745F0BB3897A977A7A3A /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
-		7C63DD0F5C9C82ABA44461ACA31F9342 /* BreathView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BreathView.swift; sourceTree = "<group>"; };
 		7D8184A8A3FC81A4DF459B988E0672D7 /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		7DBB6F6BE5A7EE267FBC397CEE562BBE /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		7EA22445A04BE26515A64C487863540F /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
@@ -596,14 +596,6 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		57A378DB2282E12E0015C9FE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7C63DD0F5C9C82ABA44461ACA31F9342 /* BreathView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		5DB1DEA25766F4433DD0C8BC5B2E1041 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -684,7 +676,7 @@
 		A3C57F14FCAD64EDCB176505B2FB28EC /* BreathView */ = {
 			isa = PBXGroup;
 			children = (
-				57A378DB2282E12E0015C9FE /* Classes */,
+				57AFF6D52283C1D400C9A46F /* BreathView.swift */,
 				5DB1DEA25766F4433DD0C8BC5B2E1041 /* Pod */,
 				0B9B4C71BB3AF1C197BEE1B14F58FB63 /* Support Files */,
 			);
@@ -1106,6 +1098,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					ABBCEC46F08353B9196715683AE7C822 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1188,8 +1185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AFF6D62283C1D400C9A46F /* BreathView.swift in Sources */,
 				0BD74D17C01C697F68532FD45C937258 /* BreathView-dummy.m in Sources */,
-				E42078997F938778EFA2A3174A00B442 /* BreathView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,6 +1526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3A72B68BC59C1C17A4478A2F7CD0BEC /* BreathView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1624,6 +1622,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3A72B68BC59C1C17A4478A2F7CD0BEC /* BreathView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1644,6 +1643,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
