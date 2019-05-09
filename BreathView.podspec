@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'BreathView/**/*'
+  s.source_files = 'BreathView/Classes/**/*'
   s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'BreathView' => ['BreathView/Assets/*.png']
